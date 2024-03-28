@@ -1,5 +1,5 @@
 {
-  "name": "Firefox Light",
+  "name": "Firefox Light Italic",
   "tokenColors": [
     {
       "settings": {
@@ -125,6 +125,7 @@
     {
       "name": "Inherited class",
       "scope": "entity.other.inherited-class",
+      "fontStyle": "italic",
       "settings": {
         "fontStyle": "underline",
         "foreground": "#0074E8"
@@ -175,6 +176,7 @@
     {
       "scope": "meta.tag.sgml.doctype.html",
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#D9DBDF"
       }
     },
@@ -285,7 +287,8 @@
       "name": "Other",
       "scope": "variable.language.this",
       "settings": {
-        "foreground": "#DD00A9"
+        "foreground": "#DD00A9",
+        "fontStyle": "italic"
       }
     },
     {
@@ -321,6 +324,12 @@
       ],
       "settings": {
         "foreground": "#058B00"
+      }
+    },
+    {
+      "scope": "entity.name.function",
+      "settings": {
+        "fontStyle": "italic"
       }
     },
     {
@@ -607,7 +616,8 @@
         "markup.underline.link.image.markdown"
       ],
       "settings": {
-        "foreground": "#0A84FF"
+        "foreground": "#0A84FF",
+        "fontStyle": "italic"
       }
     }
   ],
